@@ -101,3 +101,13 @@ Jika Anda sudah berusaha tetapi masih butuh bantuan, silakan hubungi kami di:
 - 📱 **Telegram**: [Komunitas Koding Indonesia](https://t.me/kodingindonesia)
 
 Tim kami akan membantu menyelesaikan masalah Anda secepat mungkin.
+
+## 📜 Lisensi
+
+Materi kursus ini dilisensikan di bawah MIT License - lihat file [LICENSE](LICENSE) untuk detailnya.
+
+---
+
+<div align="center">
+  <p>Dibuat dengan ❤️ untuk para penggemar IoT di seluruh dunia</p>
+</div>
