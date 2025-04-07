@@ -97,15 +97,15 @@ Untuk mendapatkan pengalaman terbaik dalam mengikuti proyek ini, kami merekomend
 
 ### Pemrograman ESP32/ESP8266 dengan Arduino Core
 Memahami dasar-dasar seperti mengendalikan output dan membaca sensor. Untuk membiasakan diri dengan board ini, Anda dapat mengikuti tutorial gratis atau eBook premium kami:
-- [Tutorial ESP32 Gratis (Cooming Soon)](https://yourwebsite.com/free-esp32-tutorials)
-- [Tutorial ESP8266 Gratis (Cooming Soon)](https://yourwebsite.com/free-esp8266-tutorials)
-- [Belajar ESP32 dengan Arduino IDE (Cooming Soon)](https://yourwebsite.com/learn-esp32-arduino-ide)
-- [Home Automation menggunakan ESP8266 (Cooming Soon)](https://yourwebsite.com/home-automation-esp8266)
+- [Tutorial ESP32 Gratis (Coming Soon)](https://yourwebsite.com/free-esp32-tutorials)
+- [Tutorial ESP8266 Gratis (Coming Soon)](https://yourwebsite.com/free-esp8266-tutorials)
+- [Belajar ESP32 dengan Arduino IDE (Coming Soon)](https://yourwebsite.com/learn-esp32-arduino-ide)
+- [Home Automation menggunakan ESP8266 (Coming Soon)](https://yourwebsite.com/home-automation-esp8266)
 
 ### Familiar dengan VS Code dan PlatformIO
 Memahami penggunaan editor VS Code dan ekstensi PlatformIO. Tutorial berikut dapat membantu Anda:
-- [Memulai dengan VS Code dan PlatformIO IDE untuk ESP32 dan ESP8266 (Cooming Soon)](https://yourwebsite.com/vscode-platformio-getting-started)
-- [VS Code Workspaces dengan Proyek ESP32 dan ESP8266 (Cooming Soon)](https://yourwebsite.com/vscode-workspaces-esp)
+- [Memulai dengan VS Code dan PlatformIO IDE untuk ESP32 dan ESP8266 (Coming Soon)](https://yourwebsite.com/vscode-platformio-getting-started)
+- [VS Code Workspaces dengan Proyek ESP32 dan ESP8266 (Coming Soon)](https://yourwebsite.com/vscode-workspaces-esp)
 
 ### Pengetahuan Dasar HTML, CSS, dan JavaScript
 Kami berasumsi Anda memiliki pengetahuan dasar tentang HTML (tag HTML dasar), CSS, dan JavaScript (variabel, fungsi, dan event). Situs web [W3Schools](https://www.w3schools.com/) adalah tempat yang baik untuk memulai dengan cepat.
