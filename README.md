@@ -128,30 +128,21 @@ Untuk mengikuti proyek ini, Anda hanya membutuhkan beberapa komponen elektronik:
 - [Breadboard](https://yourwebsite.com/breadboard)
 - [Kabel jumper](https://yourwebsite.com/jumper-wires)
 
-## 🔍 Mengatasi Masalah Selama Pembelajaran
+## 🔍 Dukungan dan Umpan Balik
 
 Selama mengikuti materi, Anda mungkin akan menghadapi kesulitan atau masalah teknis. Kami sangat mendorong Anda untuk mencoba memperbaiki masalah teknis sendiri terlebih dahulu. Memperbaiki masalah teknis sendiri adalah cara yang sangat baik untuk mempelajari subjek baru.
 
-Jika Anda sudah berusaha semaksimal mungkin tetapi tidak bisa menemukan solusi untuk masalah Anda, Anda selalu dapat mengandalkan komunitas untuk membantu Anda. Anda dapat menggunakan:
-- [Forum Privat](https://yourwebsite.com/forum) (direkomendasikan)
-- [Grup Facebook](https://facebook.com/groups/yourgroupname)
-- [Formulir Dukungan](https://yourwebsite.com/support)
+Jika Anda sudah berusaha semaksimal mungkin tetapi tidak bisa menemukan solusi untuk masalah Anda, atau jika Anda ingin memberikan umpan balik tentang materi pembelajaran ini, Anda dapat bergabung dengan komunitas kami di:
 
-## ⚠️ Periksa Errata
+- [Grup Telegram Koding Indonesia](https://t.me/kodingindonesia)
 
-Sebelum memulai proyek, silakan periksa errata pada halaman materi di tautan berikut untuk melihat apakah ada yang perlu diperbaiki:
-- [https://yourwebsite.com/firebase-web-app-with-esp32-and-esp8266](https://yourwebsite.com/firebase-web-app-with-esp32-and-esp8266)
+Di grup Telegram ini, Anda dapat:
+- Mengajukan pertanyaan tentang masalah yang Anda hadapi
+- Berbagi pengalaman Anda dalam mengikuti proyek
+- Memberikan umpan balik untuk perbaikan materi
+- Berinteraksi dengan peserta lain yang sedang mengerjakan proyek serupa
 
-Jika tidak ada errata di halaman tersebut, berarti tidak ada masalah yang perlu Anda khawatirkan.
-
-## 💬 Berikan Umpan Balik
-
-Umpan balik Anda sangat penting agar kami dapat meningkatkan materi pembelajaran ini. Saran, koreksi, dan pendapat Anda sangat penting.
-
-Anda dapat menggunakan saluran berikut untuk memberikan umpan balik:
-- [Formulir Dukungan](https://yourwebsite.com/support)
-- [Forum](https://yourwebsite.com/forum)
-- [Grup Facebook](https://facebook.com/groups/yourgroupname)
+Umpan balik Anda sangat berharga bagi kami untuk terus meningkatkan kualitas materi pembelajaran. Saran, koreksi, dan pendapat Anda akan membantu kami membuat materi yang lebih baik untuk semua orang.
 
 ---
 
