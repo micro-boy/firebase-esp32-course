@@ -103,7 +103,7 @@ Jika Anda sudah berusaha tetapi masih butuh bantuan, silakan hubungi kami di:
 Tim kami akan membantu menyelesaikan masalah Anda secepat mungkin.
 
 ---
-<div align="center">
+<div align="Left">
   <p>Dibuat dengan ❤️ oleh <a href="https://github.com/micro-boy">Micro Boy</a></p>
   <p>Referensi: Firebase Web App with ESP32 and ESP8266 oleh Rui Santos dan Sara Santos</p>
 </div>
