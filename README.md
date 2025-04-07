@@ -147,6 +147,6 @@ Umpan balik Anda sangat berharga bagi kami untuk terus meningkatkan kualitas mat
 ---
 
 <div align="center">
-  <p>Dibuat dengan ❤️ oleh <a href="https://github.com/YourUsername">Your Name</a></p>
+  <p>Dibuat dengan ❤️ oleh <a href="https://github.com/micro-boy">Micro Boy</a></p>
   <p>Referensi: Firebase Web App with ESP32 and ESP8266 oleh Rui Santos dan Sara Santos</p>
 </div>
