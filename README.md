@@ -1,143 +1,161 @@
-# Aplikasi Web Firebase dengan ESP32 dan ESP8266
+# Firebase Web App dengan ESP32 dan ESP8266
 
 <div align="center">
-  <img src="images/firebase-banner.png" alt="Firebase dengan ESP32/ESP8266" width="600">
+  <img src="https://raw.githubusercontent.com/assets/firebase-esp-header.png" alt="Firebase dengan ESP32 dan ESP8266" width="600"/>
 </div>
 
-## 🔥 Selamat Datang di Kursus Ini
+## 🚀 Memulai Perjalanan
 
-Selamat datang di tutorial lengkap tentang membangun Aplikasi Web Firebase dengan mikrokontroler ESP32 dan ESP8266. Sepanjang kursus ini, Anda akan belajar cara membuat sistem IoT lengkap yang memungkinkan Anda:
+Selamat datang di modul pembelajaran "**Firebase Web App dengan ESP32 dan ESP8266**". Materi ini akan memandu Anda langkah demi langkah untuk membangun aplikasi web berbasis Firebase yang dapat memantau dan mengendalikan perangkat ESP32 dan ESP8266 dari mana saja di dunia.
 
-- Mengendalikan GPIO ESP32/ESP8266 dari jarak jauh menggunakan buttons dan sliders
-- Memantau pembacaan sensor secara real-time dari mana saja di dunia
-- Mengimplementasikan authentication yang aman menggunakan email dan password
-- Mengatur database rules untuk keamanan
-- Mencatat data dengan timestamps dan menampilkan data historis pada charts
+### 📱 Fitur Utama Aplikasi
 
-Semua data disimpan dalam Firebase Realtime Database, menciptakan aliran komunikasi yang mulus antara mikrokontroler dan web interface Anda.
+Aplikasi web yang akan kita bangun memiliki kemampuan:
+
+- Mengendalikan GPIO ESP menggunakan tombol dan slider
+- Mengirim data input ke perangkat ESP
+- Menampilkan pembacaan sensor dari perangkat ESP32/ESP8266
+- Menyimpan semua data pada Firebase Realtime Database
+- Dilengkapi sistem login menggunakan email dan password
+- Database yang terlindungi dengan aturan keamanan (database rules)
+
+## 💰 Apakah Firebase Gratis?
+
+Ya, untuk aplikasi yang akan kita bangun, kita akan menggunakan "Spark Pricing Plan" yang gratis. Layanan Firebase yang akan kita gunakan untuk membangun dan meng-host aplikasi web tersedia dalam paket gratis.
+
+## 📚 Cara Mengikuti Materi Pembelajaran
+
+Materi ini disusun dengan pendekatan langkah-demi-langkah. Oleh karena itu, Anda harus mengikuti materi ini secara linier. Artinya, Anda perlu mengikuti semua langkah yang disebutkan dan sebaiknya tidak melewatkan bagian-bagian tertentu kecuali jika ada catatan khusus.
+
+## 📦 Mengunduh Source Code dan Resources
+
+Setiap bagian berisi kode dan resources yang Anda butuhkan untuk menyelesaikan setiap langkah dan melanjutkan ke bagian berikutnya. Anda dapat mengunduh semua resources untuk contoh tertentu pada Unit yang sesuai.
+
+Alternatifnya, Anda dapat mengunduh seluruh repository proyek dan langsung mendapatkan semua resources:
+
+- [Unduh Semua Resources Materi](https://github.com/YourUsername/Firebase-ESP32-ESP8266-Course/archive/refs/heads/main.zip)
+
+## 📋 Gambaran Umum Materi
+
+Materi pembelajaran ini dibagi menjadi enam bagian:
+
+### Part 1: Membuat Proyek Firebase
+- Mempelajari cara membuat proyek Firebase
+- Menyiapkan layanan yang diperlukan (Authentication dan Firebase Realtime Database)
+
+### Part 2: Mengorganisir Database dan Aturan Database
+- Memahami cara mengorganisir database dengan efisien
+- Mengatur aturan database untuk melindungi data Anda
+
+### Part 3: ESP32/ESP8266: Berinteraksi dengan Realtime Database
+- Berinteraksi dengan Firebase Realtime Database menggunakan board ESP32 dan ESP8266
+- Mempelajari cara membaca dan mengirim data ke database
+
+### Part 4: Membuat Aplikasi Web Firebase
+- Menyiapkan file HTML dan JavaScript untuk membuat aplikasi web
+- Mengimplementasikan kontrol dan pemantauan untuk board Anda
+
+### Part 5: Hosting Aplikasi Web (Nama Domain Kustom)
+- Meng-host aplikasi web Anda
+- Mengatur nama domain kustom untuk mengakses aplikasi web dari mana saja
+
+### Part 6: ESP32/ESP8266: Pencatatan Data ke Realtime Database
+- Mempelajari cara mencatat data dengan timestamp
+- Menampilkan riwayat data pada grafik dan tabel
+
+## 🎓 Apa yang Akan Anda Pelajari
+
+Dengan mengikuti proyek ini, Anda akan mempelajari hal-hal berikut:
+
+### Firebase Project:
+- Membuat proyek Firebase
+- Menambahkan autentikasi ke proyek Firebase (email dan password)
+- Menambahkan Realtime Database (RTDB) ke proyek untuk menyimpan data dalam format JSON
+- Mengorganisir RTDB Anda
+- Melindungi RTDB menggunakan aturan database
+- Menambahkan aplikasi web ke proyek Firebase untuk mengendalikan dan memantau board ESP32 dan ESP8266
+- Meng-host aplikasi web di server Firebase
+- Menambahkan domain kustom ke aplikasi web — ini memerlukan pembelian nama domain (langkah ini opsional)
+
+### ESP32/ESP8266:
+- Mengautentikasi board ESP32 atau ESP8266 sebagai pengguna resmi dengan email dan password
+- Menulis data ke Realtime Database
+- Memantau database — mendeteksi perubahan database
+- Menjalankan tugas berdasarkan perubahan yang terdeteksi
+- Mencatat data dengan timestamp
+
+### Aplikasi Web Firebase:
+- Membuat aplikasi web dan menghubungkannya ke proyek Firebase
+- Membangun halaman web untuk aplikasi menggunakan HTML dasar dan bootstrap (framework CSS): modal login/logout, tombol, slider, tabel untuk pembacaan sensor, grafik, dan kolom input
+- Memantau perubahan database untuk memperbarui data aplikasi web menggunakan JavaScript
+- Menulis ke database untuk mengendalikan output ESP32 atau ESP8266 menggunakan JavaScript
+- Mengambil dan mengelola data untuk ditampilkan dalam berbagai format
+
+## 🧩 Prasyarat
+
+Untuk mendapatkan pengalaman terbaik dalam mengikuti proyek ini, kami merekomendasikan Anda memiliki pengetahuan dasar tentang:
+
+### Pemrograman ESP32/ESP8266 dengan Arduino Core
+Memahami dasar-dasar seperti mengendalikan output dan membaca sensor. Untuk membiasakan diri dengan board ini, Anda dapat mengikuti tutorial gratis atau eBook premium kami:
+- [Tutorial ESP32 Gratis](https://yourwebsite.com/free-esp32-tutorials)
+- [Tutorial ESP8266 Gratis](https://yourwebsite.com/free-esp8266-tutorials)
+- [Belajar ESP32 dengan Arduino IDE](https://yourwebsite.com/learn-esp32-arduino-ide)
+- [Home Automation menggunakan ESP8266](https://yourwebsite.com/home-automation-esp8266)
+
+### Familiar dengan VS Code dan PlatformIO
+Memahami penggunaan editor VS Code dan ekstensi PlatformIO. Tutorial berikut dapat membantu Anda:
+- [Memulai dengan VS Code dan PlatformIO IDE untuk ESP32 dan ESP8266](https://yourwebsite.com/vscode-platformio-getting-started)
+- [VS Code Workspaces dengan Proyek ESP32 dan ESP8266](https://yourwebsite.com/vscode-workspaces-esp)
+
+### Pengetahuan Dasar HTML, CSS, dan JavaScript
+Kami berasumsi Anda memiliki pengetahuan dasar tentang HTML (tag HTML dasar), CSS, dan JavaScript (variabel, fungsi, dan event). Situs web [W3Schools](https://www.w3schools.com/) adalah tempat yang baik untuk memulai dengan cepat.
+
+> 💡 **Catatan**: Jika Anda tidak memiliki pengetahuan sebelumnya tentang topik-topik ini, Anda tetap dapat mengikuti panduan langkah demi langkah. Namun, mungkin akan lebih menantang untuk memahami beberapa langkah dan memodifikasi proyek sesuai kebutuhan spesifik Anda. Meskipun demikian, kami yakin Anda akan dapat membuat aplikasi berfungsi.
+
+## 🛠️ Komponen yang Dibutuhkan
+
+Untuk mengikuti proyek ini, Anda hanya membutuhkan beberapa komponen elektronik:
 
 <div align="center">
-  <img src="images/project-demo.png" alt="Demo Proyek" width="600">
+  <img src="https://raw.githubusercontent.com/assets/components-setup.jpg" alt="Komponen yang Dibutuhkan" width="600"/>
 </div>
 
-## 📚 Struktur Repository
+- [ESP32](https://yourwebsite.com/esp32) atau [ESP8266](https://yourwebsite.com/esp8266)
+- [BME280](https://yourwebsite.com/bme280) atau sensor lain yang Anda kenal
+- 4x [LED](https://yourwebsite.com/leds)
+- 4x [Resistor 220 Ohm](https://yourwebsite.com/resistors)
+- [Display OLED SSD1306 0.96 inch](https://yourwebsite.com/ssd1306)
+- [Breadboard](https://yourwebsite.com/breadboard)
+- [Kabel jumper](https://yourwebsite.com/jumper-wires)
 
-Repository ini disusun dalam modul-modul yang mengikuti struktur yang sama dengan kursus asli:
+## 🔍 Mengatasi Masalah Selama Pembelajaran
 
-```
-/firebase-esp32-course/
-├── README.md                   # Pengenalan kursus utama (Anda sedang berada di sini)
-├── images/                     # Gambar yang digunakan dalam dokumentasi
-├── resources/                  # Resource dan download tambahan
-├── part-0-getting-started/     # Pengenalan Firebase dan gambaran umum proyek
-├── part-1-firebase-project/    # Membuat dan mengkonfigurasi proyek Firebase
-├── part-2-database-setup/      # Mengorganisir database dan menyiapkan rules
-├── part-3-esp-integration/     # Interaksi ESP32/ESP8266 dengan Firebase
-├── part-4-web-app-creation/    # Membangun web interface
-├── part-5-hosting/             # Hosting aplikasi dengan custom domain
-└── part-6-datalogging/         # Mengimplementasikan fungsi datalogging
-```
+Selama mengikuti materi, Anda mungkin akan menghadapi kesulitan atau masalah teknis. Kami sangat mendorong Anda untuk mencoba memperbaiki masalah teknis sendiri terlebih dahulu. Memperbaiki masalah teknis sendiri adalah cara yang sangat baik untuk mempelajari subjek baru.
 
-Setiap modul berisi:
-- README terperinci dengan instruksi langkah demi langkah
-- Source code lengkap untuk modul tersebut
-- Resource tambahan dan diagram jika diperlukan
+Jika Anda sudah berusaha semaksimal mungkin tetapi tidak bisa menemukan solusi untuk masalah Anda, Anda selalu dapat mengandalkan komunitas untuk membantu Anda. Anda dapat menggunakan:
+- [Forum Privat](https://yourwebsite.com/forum) (direkomendasikan)
+- [Grup Facebook](https://facebook.com/groups/yourgroupname)
+- [Formulir Dukungan](https://yourwebsite.com/support)
 
-## 🛠️ Apa yang Akan Anda Pelajari
+## ⚠️ Periksa Errata
 
-Dengan menyelesaikan kursus ini, Anda akan mendapatkan pengalaman langsung dengan:
+Sebelum memulai proyek, silakan periksa errata pada halaman materi di tautan berikut untuk melihat apakah ada yang perlu diperbaiki:
+- [https://yourwebsite.com/firebase-web-app-with-esp32-and-esp8266](https://yourwebsite.com/firebase-web-app-with-esp32-and-esp8266)
 
-### Platform Firebase
-- Membuat dan mengkonfigurasi proyek Firebase
-- Menyiapkan authentication dengan email dan password
-- Bekerja dengan Realtime Database
-- Mengorganisir data secara efisien
-- Mengimplementasikan database rules
-- Hosting web apps
-- Mengatur custom domain (opsional)
+Jika tidak ada errata di halaman tersebut, berarti tidak ada masalah yang perlu Anda khawatirkan.
 
-### Pemrograman ESP32/ESP8266
-- Mengautentikasi board sebagai pengguna yang berwenang
-- Menulis dan membaca data dari Realtime Database
-- Streaming perubahan database secara real-time
-- Menjalankan tasks berdasarkan perubahan database
-- Logging data sensor dengan timestamps
+## 💬 Berikan Umpan Balik
 
-### Pengembangan Web
-- Membuat responsive web interface dengan HTML dan Bootstrap
-- Mengimplementasikan authentication flows
-- Real-time data synchronization dengan JavaScript
-- Membangun interactive controls (buttons, sliders, inputs)
-- Memvisualisasikan data dengan charts dan tables
+Umpan balik Anda sangat penting agar kami dapat meningkatkan materi pembelajaran ini. Saran, koreksi, dan pendapat Anda sangat penting.
 
-## 🧩 Prerequisites
-
-Untuk mendapatkan hasil maksimal dari kursus ini, pengetahuan berikut direkomendasikan (meskipun tidak wajib):
-
-- Basic programming ESP32/ESP8266 dengan Arduino Core
-- Familiaritas dengan VS Code dan PlatformIO
-- Pemahaman dasar tentang HTML, CSS, dan JavaScript
-
-Jika Anda belum memiliki keterampilan ini, jangan khawatir! Instruksinya cukup detail untuk pemula, meskipun memiliki background akan membantu Anda memahami konsep dengan lebih baik dan menyesuaikan proyek untuk kebutuhan Anda.
-
-## 📋 Komponen yang Diperlukan
-
-Untuk membangun proyek lengkap, Anda akan membutuhkan:
-
-- Board ESP32 atau ESP8266
-- Sensor BME280 atau sensor lain yang Anda kenal
-- 4× LED
-- 4× Resistor 220 Ohm
-- Display OLED SSD1306 0,96 inci
-- Breadboard
-- Jumper wires
-
-## 🚀 Memulai
-
-Untuk mulai bekerja dengan repository ini:
-
-1. Clone repository ini:
-   ```
-   git clone https://github.com/namapengguna/firebase-esp32-course.git
-   ```
-
-2. Navigasi ke modul pertama:
-   ```
-   cd firebase-esp32-course/part-0-getting-started
-   ```
-
-3. Ikuti instruksi README di setiap modul secara berurutan
-
-## 💾 Mengunduh Resources
-
-Semua resources untuk kursus ini tersedia dalam dua cara:
-
-1. **Modul per Modul**: Setiap modul berisi resources-nya sendiri di direktori masing-masing
-
-2. **Paket Lengkap**: Anda dapat mengunduh semua resources kursus sekaligus dari:
-   [Download Complete Resources](https://github.com/namapengguna/firebase-esp32-course/archive/refs/heads/main.zip)
-
-## ❓ Mendapatkan Bantuan
-
-Jika Anda mengalami kesulitan:
-
-1. Cobalah untuk menyelesaikan masalah dengan menganalisis error messages dan dokumentasi
-2. Periksa tab [Issues](https://github.com/namapengguna/firebase-esp32-course/issues) untuk melihat apakah orang lain menghadapi masalah serupa
-3. Buka issue baru jika Anda tidak dapat menemukan solusi untuk masalah Anda
-4. Berpartisipasilah dalam [Discussions](https://github.com/namapengguna/firebase-esp32-course/discussions) untuk berinteraksi dengan pembelajar lain
-
-## 📖 Gambaran Kursus Terperinci
-
-Mari mulai dengan pengenalan Firebase dan gambaran umum tentang apa yang akan Anda bangun!
-
-[Lanjut ke Part 0: Getting Started →](./part-0-getting-started/)
-
-## 📜 License
-
-Materi kursus ini dilisensikan di bawah MIT License - lihat file [LICENSE](LICENSE) untuk detailnya.
+Anda dapat menggunakan saluran berikut untuk memberikan umpan balik:
+- [Formulir Dukungan](https://yourwebsite.com/support)
+- [Forum](https://yourwebsite.com/forum)
+- [Grup Facebook](https://facebook.com/groups/yourgroupname)
 
 ---
 
 <div align="center">
-  <p>Dibuat dengan ❤️ untuk para penggemar IoT di seluruh dunia</p>
+  <p>Dibuat dengan ❤️ oleh <a href="https://github.com/YourUsername">Your Name</a></p>
+  <p>Referensi: Firebase Web App with ESP32 and ESP8266 oleh Rui Santos dan Sara Santos</p>
 </div>
