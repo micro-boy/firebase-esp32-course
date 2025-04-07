@@ -102,6 +102,7 @@ Jika Anda sudah berusaha tetapi masih butuh bantuan, silakan hubungi kami di:
 
 Tim kami akan membantu menyelesaikan masalah Anda secepat mungkin.
 
+--
 <div align="center">
   <p>Dibuat dengan ❤️ untuk para penggemar IoT di seluruh dunia</p>
 </div>
