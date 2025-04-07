@@ -101,7 +101,3 @@ Jika Anda sudah berusaha tetapi masih butuh bantuan, silakan hubungi kami di:
 - 📱 **Telegram**: [Komunitas Koding Indonesia](https://t.me/kodingindonesia)
 
 Tim kami akan membantu menyelesaikan masalah Anda secepat mungkin.
-
-## 📖 Struktur Repository
-
-Repository ini disusun dalam modul-modul yang mengikuti struktur yang sama dengan kursus:
