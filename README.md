@@ -73,7 +73,7 @@ Untuk membangun proyek lengkap, Anda akan membutuhkan:
 
 Kursus ini disusun dalam format step-by-step progresif. Untuk hasil terbaik, ikuti modul secara berurutan:
 
-1. [Part 0: Getting Started](./part0-getting-started/) - Pengenalan Firebase dan gambaran umum proyek
+1. [Part 0: Getting Started](https://github.com/micro-boy/firebase-esp32-course) - Pengenalan Firebase dan gambaran umum proyek
 2. [Part 1: Firebase Project](./part1-firebase-project/) - Membuat dan mengkonfigurasi proyek Firebase
 3. [Part 2: Database Rules](./part2-database-rules/) - Mengorganisir database dan menyiapkan rules
 4. [Part 3: ESP Integration](./part3-esp-integration/) - Interaksi ESP32/ESP8266 dengan Firebase
