@@ -193,7 +193,7 @@ Semua informasi ini akan diperlukan di bagian-bagian selanjutnya saat kita mengh
 
 Di bagian berikutnya, kita akan melihat cara mengatur struktur database dan melindungi data Anda menggunakan aturan database.
 
-[➡️ Lanjut ke Part 2: Mengorganisasi Database dan Aturan Database](../part2-database-rules/README.md)
+[➡️ Lanjut ke Part 2: Mengorganisasi Database dan Aturan Database](https://github.com/micro-boy/firebase-esp32-course/blob/main/firebase-esp32-course-2.md)
 
 ---
 
