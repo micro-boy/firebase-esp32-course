@@ -104,4 +104,4 @@ Untuk aplikasi kita, kita akan menggunakan **Spark Pricing Plan** yang gratis.
 
 Sekarang setelah Anda mengetahui tentang apa yang akan dibahas dalam proyek ini, silakan lanjutkan ke unit berikutnya untuk memulai.
 
-[➡️ Lanjut ke Part 1: Membuat Proyek Firebase](https://github.com/micro-boy/firebase-esp32-course-1)
+[➡️ Lanjut ke Part 1: Membuat Proyek Firebase](https://github.com/micro-boy/firebase-esp32-course-1.md)
