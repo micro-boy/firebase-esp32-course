@@ -468,7 +468,7 @@ Pada bagian selanjutnya, kita akan mengimplementasikan kode lengkap yang tidak h
 
 Kode untuk ESP32 dan ESP8266 sedikit berbeda ketika berkaitan dengan sinyal output PWM. Selain perubahan tersebut, sketsanya identik.
 
-[➡️ Lanjut ke Part 3 (4): Streaming Database (2)](https://github.com/micro-boy/firebase-esp32-course/blob/main/firebase-esp32-course-3-4.md)
+[➡️ Lanjut ke Part 3: ESP32/ESP8266-Berinteraksi dengan Realtime Database (4)](https://github.com/micro-boy/firebase-esp32-course/blob/main/firebase-esp32-course-3-4.md)
 ---
 
 <div align="Left">
