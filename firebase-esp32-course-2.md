@@ -262,8 +262,7 @@ Pada bagian ini, kita telah:
 
 Di bagian berikutnya, kita akan mulai menjelajahi cara ESP32/ESP8266 dapat berinteraksi dengan Realtime Database untuk membaca dan menulis data.
 
-[➡️ Lanjut ke Part 3: ESP32/ESP8266: Berinteraksi dengan Realtime Database](https://github.com/micro-boy/firebase-esp32-course/blob/main/firebase-esp32-course-3-1.md)
-
+[➡️ Lanjut ke Part 3: ESP32/ESP8266: Berinteraksi dengan Realtime Database (1)](https://github.com/micro-boy/firebase-esp32-course/blob/main/firebase-esp32-course-3-1.md)
 ---
 
 <div align="Left">
