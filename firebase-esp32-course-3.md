@@ -451,6 +451,8 @@ Di bagian berikutnya (3.3), kita akan belajar cara:
 
 Dengan kemampuan ini, Anda akan dapat membuat aplikasi IoT yang dapat memantau dan mengontrol perangkat dari jarak jauh secara real-time.
 
+[➡️ Lanjut ke Part 3 (2)](https://github.com/micro-boy/firebase-esp32-course/blob/main/firebase-esp32-course-3-2.md)
+
 ---
 
 <div align="Left">
