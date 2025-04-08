@@ -471,7 +471,7 @@ Untuk aplikasi IoT dunia nyata, berikut beberapa tips untuk mengoptimalkan pengi
 
 Di bagian berikutnya, Anda akan belajar cara mengatur listener pada jalur tertentu sehingga Anda tahu kapan pun ada perubahan database pada status GPIO atau pada node pesan (pada jalur `UsersData/<user_uid>/outputs`).
 
-[➡️ Lanjut ke Part 3 (3): Streaming Database (1)](https://github.com/micro-boy/firebase-esp32-course/blob/main/firebase-esp32-course-3-3.md)
+[➡️ Lanjut ke Part 3: ESP32/ESP8266-Berinteraksi dengan Realtime Database (3)](https://github.com/micro-boy/firebase-esp32-course/blob/main/firebase-esp32-course-3-3.md)
 ---
 
 <div align="Left">
